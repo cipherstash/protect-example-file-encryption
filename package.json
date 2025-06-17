@@ -1,0 +1,30 @@
+{
+  "name": "protect-example-file-encryption",
+  "version": "0.0.1",
+  "description": "File encryption with Protect.js",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [
+    "file-encryption",
+    "protectjs",
+    "cipherstash"
+  ],
+  "author": "CipherStash",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.0",
+  "dependencies": {
+    "@cipherstash/protect": "^9.3.0",
+    "@hono/node-server": "^1.14.3",
+    "@supabase/supabase-js": "^2.49.10",
+    "@types/node": "^22.15.29",
+    "dotenv": "^16.5.0",
+    "hono": "^4.7.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  }
+}
